@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anas Berkaoui | Master Innovation Technologique & IA</title>
+    <meta name="description"
+        content="Portfolio de Anas Berkaoui, étudiant en Master Innovation Technologiques et IA pour l’Ingénierie Pédagogique. Expert en EdTech et intelligence artificielle.">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Anas Berkaoui | Portfolio">
+    <meta property="og:description" content="Innovation Technologiques et IA pour l’Ingénierie Pédagogique.">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png"
+        href="https://ui-avatars.com/api/?name=Anas+Berkaoui&background=03045e&color=fff&rounded=true">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome (for icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css?v=2">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo" id="nav-logo">
+                <img src="Anas Berkaoui.jpeg" alt="Anas" class="nav__avatar">
+                <span>Anas Berkaoui</span>
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#about" class="nav__link active-link" data-i18n="nav_about">À propos</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link" data-i18n="nav_skills">Compétences</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link" data-i18n="nav_projects">Projets</a></li>
+                    <li class="nav__item"><a href="#resume" class="nav__link" data-i18n="nav_resume">CV</a></li>
+                    <li class="nav__item"><a href="#research" class="nav__link" data-i18n="nav_research">Recherche</a></li>
+                    <li class="nav__item"><a href="#hobbies" class="nav__link" data-i18n="nav_hobbies">Passions</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link" data-i18n="nav_contact">Contact</a></li>
+                </ul>
+                <div class="nav__close" id="nav-close"><i class="fas fa-times"></i></div>
+            </div>
+
+            <div class="nav__btns">
+                <!-- Theme Toggle -->
+                <i class="fas fa-moon change-theme" id="theme-button"></i>
+
+                <!-- Language Toggle -->
+                <div class="nav__lang" id="lang-toggle">
+                    <span class="lang-btn active" data-lang="fr">FR</span>
+                    <span class="lang-btn" data-lang="en">EN</span>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+            <div class="hero__container container grid">
+                <div class="hero__content">
+                    <h1 class="hero__title" id="hero-title">Anas Berkaoui</h1>
+                    <h2 class="hero__subtitle" id="hero-subtitle">Master Innovation Technologiques & IA pour
+                        l’Ingénierie Pédagogique</h2>
+                    <p class="hero__description" data-i18n="hero_tagline">
+                        Concevoir le futur de l'éducation grâce à l'intelligence artificielle et aux technologies
+                        innovantes.
+                    </p>
+                    <div class="hero__btns">
+                        <a href="#about" class="button" data-i18n="hero_cta_discover">Découvrir mon profil</a>
+                        <a href="cv Anas Berkaoui.pdf" class="button button--ghost" download
+                            data-i18n="hero_cta_cv">Voir mon CV</a>
+                    </div>
+                </div>
+                <div class="hero__img-wrapper">
+                    <!-- Profile Photo -->
+                    <div class="hero__blob"></div>
+                    <img src="Anas pic 1.jpg" alt="Anas Berkaoui" class="hero__photo">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section container" id="about">
+            <h2 class="section__title" data-i18n="about_title">À propos de moi</h2>
+            <div class="about__container grid">
+                <div class="about__img-container">
+                    <img src="Anas Berkaoui.jpeg" alt="Anas Berkaoui" class="about__img">
+                </div>
+                <div class="about__data">
+                    <p class="about__description" data-i18n="about_p1">
+                        Étudiant en ingénierie pédagogique, je m’intéresse à la conception de dispositifs
+                        d’apprentissage innovants et à l’intégration de l’intelligence artificielle dans l’éducation.
+                        Motivé et rigoureux, je souhaite mettre en pratique mes compétences en conception pédagogique et
+                        participer au développement de solutions d’apprentissage basées sur l’IA.
+                    </p>
+                    <p class="about__description" data-i18n="about_p2">
+                        Actuellement en Master Innovation Technologiques et IA pour l'Ingénierie Pédagogique à l'ESEF de
+                        Beni Mellal, j'ai également une expérience en tant que professeur d'enseignement professionnel,
+                        ce qui me donne une vision concrète des besoins éducatifs sur le terrain.
+                    </p>
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">01</span>
+                            <span class="about__info-name" data-i18n="about_stat_uni">Master en cours<br>ESEF Beni
+                                Mellal</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">05+</span>
+                            <span class="about__info-name" data-i18n="about_stat_projects">Projets<br>Académiques</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">02</span>
+                            <span class="about__info-name" data-i18n="about_stat_langs">Langues<br>FR / EN</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills section" id="skills">
+            <h2 class="section__title" data-i18n="skills_title">Compétences & Outils</h2>
+            <div class="skills__container container grid">
+                <!-- AI & Data Science -->
+                <div class="skills__content">
+                    <h3 class="skills__header">
+                        <i class="fas fa-brain skills__icon"></i>
+                        <span data-i18n="skills_cat_ai">AI & Data Science</span>
+                    </h3>
+                    <div class="skills__list grid">
+                        <div class="skill__card"><i class="fab fa-python"></i> <span>Python</span></div>
+                        <div class="skill__card"><i class="fas fa-microchip"></i> <span>Machine Learning</span></div>
+                        <div class="skill__card"><i class="fas fa-microchip"></i> <span>Deep Learning</span></div>
+                        <div class="skill__card"><i class="fas fa-chart-bar"></i> <span>Analyse Mathématique</span></div>
+                        <div class="skill__card"><i class="fas fa-brain"></i> <span>IA en Éducation</span></div>
+                    </div>
+                </div>
+
+                <!-- Pedagogical Engineering -->
+                <div class="skills__content">
+                    <h3 class="skills__header">
+                        <i class="fas fa-graduation-cap skills__icon"></i>
+                        <span data-i18n="skills_cat_pedagogy">Ingénierie Pédagogique</span>
+                    </h3>
+                    <div class="skills__list grid">
+                        <div class="skill__card"><i class="fas fa-pencil-ruler"></i> <span>Instructional Design</span></div>
+                        <div class="skill__card"><i class="fas fa-laptop-code"></i> <span>LMS (Moodle/Canvas)</span></div>
+                        <div class="skill__card"><i class="fas fa-user-graduate"></i> <span>Adaptive Learning</span></div>
+                    </div>
+                </div>
+
+                <!-- Web & Development -->
+                <div class="skills__content">
+                    <h3 class="skills__header">
+                        <i class="fas fa-code skills__icon"></i>
+                        <span data-i18n="skills_cat_web">Web & Développement</span>
+                    </h3>
+                    <div class="skills__list grid">
+                        <div class="skill__card"><i class="fab fa-js"></i> <span>JavaScript</span></div>
+                        <div class="skill__card"><i class="fab fa-java"></i> <span>Java</span></div>
+                        <div class="skill__card"><i class="fab fa-html5"></i> <span>HTML</span></div>
+                        <div class="skill__card"><i class="fab fa-css3-alt"></i> <span>CSS</span></div>
+                    </div>
+                </div>
+
+                <!-- Tools -->
+                <div class="skills__content">
+                    <h3 class="skills__header">
+                        <i class="fas fa-tools skills__icon"></i>
+                        <span data-i18n="skills_cat_tools">Outils</span>
+                    </h3>
+                    <div class="skills__list grid">
+                        <div class="skill__card"><i class="fas fa-project-diagram"></i> <span>UML</span></div>
+                        <div class="skill__card"><i class="fab fa-windows"></i> <span>Office / Google</span></div>
+                        <div class="skill__card"><i class="fab fa-git-alt"></i> <span>Git</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects section" id="projects">
+            <h2 class="section__title" data-i18n="projects_title">Projets Académiques</h2>
+
+            <div class="projects__container container grid">
+                <!-- Project 1 -->
+                <article class="project__card">
+                    <div class="project__img-box">
+                        <img src="project1.png" alt="Project 1" class="project__img">
+                        <span class="project__badge" data-i18n="project_badge_soon">À venir</span>
+                    </div>
+                    <div class="project__data">
+                        <h3 class="project__title" data-i18n="project1_title">Système de recommandation d'apprentissage
+                        </h3>
+                        <p class="project__description" data-i18n="project1_desc">Développement d'un algorithme filtrage
+                            collaboratif pour suggérer des ressources pédagogiques adaptées au profil de l'apprenant.
+                        </p>
+                        <div class="project__tags">
+                            <span>Python</span>
+                            <span>Scikit-learn</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project__card">
+                    <div class="project__img-box">
+                        <img src="project2.png" alt="Project 2" class="project__img">
+                        <span class="project__badge" data-i18n="project_badge_soon">À venir</span>
+                    </div>
+                    <div class="project__data">
+                        <h3 class="project__title" data-i18n="project2_title">Chatbot Tuteur Intelligent</h3>
+                        <p class="project__description" data-i18n="project2_desc">Conception d'un agent conversationnel
+                            basé sur le NLP pour accompagner les étudiants dans la résolution de problèmes complexes.
+                        </p>
+                        <div class="project__tags">
+                            <span>NLP</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project__card">
+                    <div class="project__img-box">
+                        <img src="project3.png" alt="Project 3" class="project__img">
+                        <span class="project__badge" data-i18n="project_badge_soon">À venir</span>
+                    </div>
+                    <div class="project__data">
+                        <h3 class="project__title" data-i18n="project3_title">Analyse de données éducatives</h3>
+                        <p class="project__description" data-i18n="project3_desc">Visualisation et analyse des
+                            comportements des utilisateurs sur une plateforme LMS pour identifier les risques de
+                            décrochage.</p>
+                        <div class="project__tags">
+                            <span>Data Viz</span>
+                            <span>Pandas</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section class="resume section container" id="resume">
+            <h2 class="section__title" data-i18n="resume_title">Mon Curriculum Vitae</h2>
+
+            <div class="resume__container grid">
+                <!-- Education & Experience Side by Side -->
+                <div class="resume__content-grid grid">
+                    <div class="resume__group">
+                        <h3 class="resume__header">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span data-i18n="resume_academic_header">Parcours Académique</span>
+                        </h3>
+                        <div class="resume__timeline">
+                            <div class="resume__item">
+                                <span class="resume__date">2025 - Présent</span>
+                                <h4 class="resume__subtitle" data-i18n="resume_edu1_title">Master Innovation
+                                    Technologique & IA</h4>
+                                <p class="resume__text">ESEF Beni Mellal</p>
+                            </div>
+                            <div class="resume__item">
+                                <span class="resume__date">2022 - 2025</span>
+                                <h4 class="resume__subtitle" data-i18n="resume_edu2_title">Licence en Éducation -
+                                    Mathématiques</h4>
+                                <p class="resume__text">ESEF Beni Mellal</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="resume__group">
+                        <h3 class="resume__header">
+                            <i class="fas fa-briefcase"></i>
+                            <span data-i18n="resume_experience_header">Expérience Professionnelle</span>
+                        </h3>
+                        <div class="resume__timeline">
+                            <div class="resume__item">
+                                <span class="resume__date">2023 - 2025</span>
+                                <h4 class="resume__subtitle" data-i18n="resume_exp1_title">Professeur d'Enseignement
+                                    Professionnel</h4>
+                                <p class="resume__text">Lycée Ennour, Beni Mellal</p>
+                            </div>
+                            <div class="resume__item">
+                                <span class="resume__date">2024</span>
+                                <h4 class="resume__subtitle">Programme "Motatawi3"</h4>
+                                <p class="resume__text" data-i18n="resume_vol1_text">Bénévolat à Beni Mellal.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sleek Document Download Card -->
+                <div class="resume__download-card">
+                    <div class="resume__doc-icon">
+                        <i class="fas fa-file-pdf"></i>
+                        <div class="resume__doc-dots"><span></span><span></span><span></span></div>
+                    </div>
+                    <div class="resume__doc-info">
+                        <h3 class="resume__doc-title">Anas_Berkaoui_CV.pdf</h3>
+                        <p class="resume__doc-size">PDF • 260 KB</p>
+                    </div>
+                    <a href="cv Anas Berkaoui.pdf" class="button resume__doc-btn" download>
+                        <i class="fas fa-download"></i>
+                        <span data-i18n="resume_download">Télécharger</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Research Section -->
+        <section class="research section container" id="research">
+            <h2 class="section__title" data-i18n="research_title">Travaux de Recherche</h2>
+            <div class="research__container grid">
+                <!-- Paper 1 -->
+                <article class="research__card">
+                    <div class="research__img-box">
+                        <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?q=80&w=2070&auto=format&fit=crop"
+                            alt="Research 1" class="research__img">
+                        <div class="research__overlay">
+                            <a href="https://www.researchgate.net/" target="_blank" class="research__link-icon"><i class="fab fa-researchgate"></i></a>
+                        </div>
+                    </div>
+                    <div class="research__data">
+                        <span class="research__date">2026</span>
+                        <h3 class="research__title" data-i18n="research1_title">L’IA au service de la personnalisation des apprentissages</h3>
+                        <p class="research__description" data-i18n="research1_excerpt">Étude sur l'impact des algorithmes d'apprentissage adaptatif dans les parcours universitaires.</p>
+                        <div class="research__btns">
+                            <button class="research__button" onclick="openModal(1)" data-i18n="research_view_abstract">Résumé</button>
+                            <a href="https://www.researchgate.net/" target="_blank" class="research__button research__button-link">ResearchGate <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Paper 2 -->
+                <article class="research__card">
+                    <div class="research__img-box">
+                        <img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?q=80&w=1974&auto=format&fit=crop"
+                            alt="Research 2" class="research__img">
+                        <div class="research__overlay">
+                            <a href="https://www.researchgate.net/" target="_blank" class="research__link-icon"><i class="fab fa-researchgate"></i></a>
+                        </div>
+                    </div>
+                    <div class="research__data">
+                        <span class="research__date">2025</span>
+                        <h3 class="research__title" data-i18n="research2_title">Chatbots Pédagogiques et STEM</h3>
+                        <p class="research__description" data-i18n="research2_excerpt">Conception et évaluation d'un agent conversationnel pour l'accompagnement en mathématiques.</p>
+                        <div class="research__btns">
+                            <button class="research__button" onclick="openModal(2)" data-i18n="research_view_abstract">Résumé</button>
+                            <a href="https://www.researchgate.net/" target="_blank" class="research__button research__button-link">ResearchGate <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Paper 3 -->
+                <article class="research__card">
+                    <div class="research__img-box">
+                        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=2070&auto=format&fit=crop"
+                            alt="Research 3" class="research__img">
+                        <div class="research__overlay">
+                            <a href="https://www.researchgate.net/" target="_blank" class="research__link-icon"><i class="fab fa-researchgate"></i></a>
+                        </div>
+                    </div>
+                    <div class="research__data">
+                        <span class="research__date">2025</span>
+                        <h3 class="research__title" data-i18n="research3_title">Éthique des Données en EdTech</h3>
+                        <p class="research__description" data-i18n="research3_excerpt">Analyse des enjeux de confidentialité et de biais algorithmiques dans l'e-learning.</p>
+                        <div class="research__btns">
+                            <button class="research__button" onclick="openModal(3)" data-i18n="research_view_abstract">Résumé</button>
+                            <a href="https://www.researchgate.net/" target="_blank" class="research__button research__button-link">ResearchGate <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Hobbies Section -->
+        <section class="hobbies section" id="hobbies">
+            <h2 class="section__title" data-i18n="hobbies_title">Mes Passions & Loisirs</h2>
+            <div class="hobbies__container container grid">
+                <!-- Hobby 5: Teaching -->
+                <div class="hobby__card">
+                    <div class="hobby__img-box">
+                        <img src="Anas teaching.jpg" alt="Teaching" class="hobby__img">
+                    </div>
+                    <div class="hobby__data">
+                        <h3 class="hobby__title" data-i18n="hobby5_title">Enseignement</h3>
+                        <p class="hobby__description" data-i18n="hobby5_desc">Partager mon savoir et accompagner les autres dans leur apprentissage.</p>
+                    </div>
+                </div>
+                <!-- Hobby 1: Chess -->
+                <div class="hobby__card">
+                    <div class="hobby__img-box">
+                        <img src="Anas playing chess.jpg" alt="Chess" class="hobby__img">
+                    </div>
+                    <div class="hobby__data">
+                        <h3 class="hobby__title" data-i18n="hobby1_title">Échecs</h3>
+                        <p class="hobby__description" data-i18n="hobby1_desc">Stratégie et réflexion, un défi mental permanent.</p>
+                    </div>
+                </div>
+
+                <!-- Hobby 2: Pool -->
+                <div class="hobby__card">
+                    <div class="hobby__img-box">
+                        <img src="Anas playing pool.jpg" alt="Pool" class="hobby__img">
+                    </div>
+                    <div class="hobby__data">
+                        <h3 class="hobby__title" data-i18n="hobby2_title">Billard</h3>
+                        <p class="hobby__description" data-i18n="hobby2_desc">Précision et géométrie, allier détente et concentration.</p>
+                    </div>
+                </div>
+
+                <!-- Hobby 3: Stadium/Football -->
+                <div class="hobby__card">
+                    <div class="hobby__img-box">
+                        <img src="Anas in stadium.jpg" alt="Stadium" class="hobby__img">
+                    </div>
+                    <div class="hobby__data">
+                        <h3 class="hobby__title" data-i18n="hobby3_title">Sports</h3>
+                        <p class="hobby__description" data-i18n="hobby3_desc">Passionné par l'énergie des stades et l'esprit d'équipe.</p>
+                    </div>
+                </div>
+
+                <!-- Hobby 4: Community/Club -->
+                <div class="hobby__card">
+                    <div class="hobby__img-box">
+                        <img src="Anas in Quark club.jpg" alt="Quark Club" class="hobby__img">
+                    </div>
+                    <div class="hobby__data">
+                        <h3 class="hobby__title" data-i18n="hobby4_title">Engagement Social</h3>
+                        <p class="hobby__description" data-i18n="hobby4_desc">Participer activement à la vie étudiante et associative (Club Quark).</p>
+                    </div>
+                </div>
+
+                
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section container" id="contact">
+            <h2 class="section__title" data-i18n="contact_title">Me Contacter</h2>
+            <div class="contact__container grid">
+                <div class="contact__info">
+                    <div class="contact__card">
+                        <i class="fas fa-envelope contact__card-icon"></i>
+                        <h3 class="contact__card-title">Email</h3>
+                        <span class="contact__card-data">berkaoui.anass12@gmail.com</span>
+                    </div>
+                    <div class="contact__card">
+                        <i class="fab fa-linkedin contact__card-icon"></i>
+                        <h3 class="contact__card-title">LinkedIn</h3>
+                        <a href="https://www.linkedin.com/in/anas-berkaoui-1426022b6/" target="_blank"
+                            class="contact__card-data">Anas Berkaoui</a>
+                    </div>
+                    <div class="contact__card">
+                        <i class="fas fa-location-dot contact__card-icon"></i>
+                        <h3 class="contact__card-title" data-i18n="contact_loc_title">Localisation</h3>
+                        <span class="contact__card-data">Beni Mellal, Maroc</span>
+                    </div>
+                </div>
+
+                <form action="" class="contact__form" id="contact-form">
+                    <div class="contact__form-div">
+                        <label class="contact__form-tag" data-i18n="contact_form_name">Nom complet</label>
+                        <input type="text" placeholder="Entrez votre nom" class="contact__form-input" id="contact-name"
+                            required>
+                    </div>
+                    <div class="contact__form-div">
+                        <label class="contact__form-tag" data-i18n="contact_form_email">Email</label>
+                        <input type="email" placeholder="Entrez votre email" class="contact__form-input"
+                            id="contact-email" required>
+                    </div>
+                    <div class="contact__form-div">
+                        <label class="contact__form-tag" data-i18n="contact_form_subject">Sujet</label>
+                        <input type="text" placeholder="Sujet du message" class="contact__form-input"
+                            id="contact-subject" required>
+                    </div>
+                    <div class="contact__form-div contact__form-area">
+                        <label class="contact__form-tag" data-i18n="contact_form_message">Message</label>
+                        <textarea name="" id="contact-message" cols="30" rows="10" placeholder="Votre message..."
+                            class="contact__form-input" required></textarea>
+                    </div>
+                    <button type="submit" class="button" data-i18n="contact_form_send">Envoyer le message</button>
+                    <div id="form-response" class="form__response"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">AB</h1>
+            <ul class="footer__list">
+                <li><a href="#about" class="footer__link" data-i18n="nav_about">À propos</a></li>
+                <li><a href="#projects" class="footer__link" data-i18n="nav_projects">Projets</a></li>
+                <li><a href="#blog" class="footer__link" data-i18n="nav_blog">Blog</a></li>
+            </ul>
+            <div class="footer__social">
+                <a href="https://www.linkedin.com/in/anas-berkaoui-1426022b6/" class="footer__social-link"
+                    target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="footer__social-link"><i class="fab fa-github"></i></a>
+                <a href="#" class="footer__social-link"><i class="fab fa-twitter"></i></a>
+            </div>
+            <span class="footer__copy" id="footer-copy">
+                &#169; 2026 Anas Berkaoui. Tous droits réservés.
+            </span>
+        </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="fas fa-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!-- Blog Modal -->
+    <div class="modal" id="blog-modal">
+        <div class="modal__content">
+            <div class="modal__close" id="modal-close"><i class="fas fa-times"></i></div>
+            <h2 class="modal__title" id="modal-title"></h2>
+            <div class="modal__info">
+                <span id="modal-date"></span>
+            </div>
+            <div class="modal__body" id="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
