@@ -33,12 +33,12 @@ const translations = {
         projects_title: "Projets Académiques",
         projects_subtitle: "Aperçu de mes travaux de recherche et développements en cours.",
         project_badge_soon: "À venir",
-        project1_title: "Système de recommandation d'apprentissage",
-        project1_desc: "Développement d'un algorithme filtrage collaboratif pour suggérer des ressources pédagogiques adaptées au profil de l'apprenant.",
-        project2_title: "Chatbot Tuteur Intelligent",
-        project2_desc: "Conception d'un agent conversationnel basé sur le NLP pour accompagner les étudiants dans la résolution de problèmes complexes.",
-        project3_title: "Analyse de données éducatives",
-        project3_desc: "Visualisation et analyse des comportements des utilisateurs sur une plateforme LMS pour identifier les risques de décrochage.",
+        project1_title: "Détection des chiffres manuscrits",
+        project1_desc: "Système de reconnaissance de chiffres écrits à la main utilisant des techniques de Machine Learning.",
+        project2_title: "Système de Reconnaissance Faciale",
+        project2_desc: "Un système simple mais efficace de reconnaissance faciale construit avec Python et OpenCV. Ce mini-projet démontre le pipeline complet : capture d'ensembles de données de visages, entraînement d'un modèle de reconnaissance et identification en temps réel via webcam.",
+        project3_title: "Détection de l'écriture manuscrite",
+        project3_desc: "Modèle d'intelligence artificielle pour la détection et la transcription de textes manuscrits.",
         projects_note: "Des projets concrets en ingénierie pédagogique seront bientôt ajoutés – restez connectés.",
         resume_title: "Mon Curriculum Vitae",
         resume_academic_header: "Parcours Académique",
@@ -55,12 +55,12 @@ const translations = {
         testi2_text: "\"Un étudiant rigoureux et passionné. Son projet sur les chatbots éducatifs montre un réel potentiel pour l'innovation dans nos systèmes d'apprentissage.\"",
         testi2_role: "Spécialiste EdTech",
         research_title: "Travaux de Recherche",
-        research1_title: "L’IA au service de la personnalisation des apprentissages",
-        research1_excerpt: "Étude sur l'impact des algorithmes d'apprentissage adaptatif dans les parcours universitaires.",
-        research2_title: "Chatbots Pédagogiques et STEM",
-        research2_excerpt: "Conception et évaluation d'un agent conversationnel pour l'accompagnement en mathématiques.",
-        research3_title: "Éthique des Données en EdTech",
-        research3_excerpt: "Analyse des enjeux de confidentialité et de biais algorithmiques dans l'e-learning.",
+        research1_title: "Exploration de l'Efficacité et des Applications de l'Algorithme de Tri par Insertion en Informatique",
+        research1_excerpt: "Cette recherche explore l’algorithme de tri par insertion en analysant son fonctionnement, sa complexité temporelle, ses performances empiriques, ses avantages, ses limites et ses applications pratiques, tout en le comparant à d’autres algorithmes de tri afin d’évaluer son utilité dans différents contextes informatiques.",
+        research2_title: "OUTILS DIDACTIQUES SPÉCIFIQUES AUX MATHÉMATIQUES",
+        research2_excerpt: "Analyse et conception d'outils didactiques innovants visant à faciliter l'enseignement et l'apprentissage des mathématiques, en mettant l'accent sur les stratégies pédagogiques adaptées aux défis cognitifs.",
+        research3_title: "Conception d’un algorithme basé sur l’IA pour la détection d’anomalies de sécurité de type DDoS, R2L, Probe et U2R, à partir du jeu de données NSL-KDD",
+        research3_excerpt: "Développement d'un système intelligent de détection d'intrusions utilisant des techniques d'intelligence artificielle pour identifier et classifier les attaques réseau complexes (DDoS, Probe, etc.) via le jeu de données NSL-KDD.",
         research_view_abstract: "Résumé",
         hobbies_title: "Mes Passions & Loisirs",
         hobby1_title: "Échecs",
@@ -110,12 +110,12 @@ const translations = {
         projects_title: "Academic Projects",
         projects_subtitle: "An overview of my ongoing research and development work.",
         project_badge_soon: "Coming Soon",
-        project1_title: "Learning Recommendation System",
-        project1_desc: "Developing a collaborative filtering algorithm to suggest educational resources tailored to the learner's profile.",
-        project2_title: "Intelligent Tutor Chatbot",
-        project2_desc: "Designing a NLP-based conversational agent to support students in solving complex problems.",
-        project3_title: "Educational Data Mining",
-        project3_desc: "Visualizing and analyzing user behavior on a LMS platform to identify dropout risks.",
+        project1_title: "Handwritten Digit Recognition",
+        project1_desc: "A system for recognizing handwritten digits using Machine Learning techniques.",
+        project2_title: "Face Recognition System",
+        project2_desc: "A simple yet effective face recognition system built with Python and OpenCV. This mini project demonstrates the full pipeline: capturing face datasets, training a recognizer model, and performing real-time identification via webcam.",
+        project3_title: "Handwriting Detection",
+        project3_desc: "An artificial intelligence model for detecting and transcribing handwritten text.",
         projects_note: "Concrete pedagogical engineering projects will be added soon – stay tuned.",
         resume_title: "My Resume",
         resume_academic_header: "Academic Background",
@@ -132,12 +132,12 @@ const translations = {
         testi2_text: "\"A rigorous and passionate student. His project on educational chatbots shows real potential for innovation in our learning systems.\"",
         testi2_role: "EdTech Specialist",
         research_title: "Research Works",
-        research1_title: "AI for Personalized Learning",
-        research1_excerpt: "Study on the impact of adaptive learning algorithms in university curricula.",
-        research2_title: "Pedagogical Chatbots and STEM",
-        research2_excerpt: "Design and evaluation of a conversational agent for mathematics support.",
-        research3_title: "Data Ethics in EdTech",
-        research3_excerpt: "Analysis of privacy issues and algorithmic biases in e-learning.",
+        research1_title: "Exploring the Efficiency and Applications of the Insertion Sort Algorithm in Computer Science",
+        research1_excerpt: "This research explores the insertion sort algorithm by analyzing its operation, time complexity, empirical performance, advantages, limitations, and practical applications, while comparing it to other sorting algorithms to evaluate its utility in different computing contexts.",
+        research2_title: "SPECIFIC DIDACTIC TOOLS FOR MATHEMATICS",
+        research2_excerpt: "Analysis and design of innovative didactic tools aimed at facilitating the teaching and learning of mathematics, focusing on pedagogical strategies tailored to cognitive challenges.",
+        research3_title: "Design of an AI-based Algorithm for Detecting Security Anomalies (DDoS, R2L, Probe, U2R) using the NSL-KDD Dataset",
+        research3_excerpt: "Development of an intelligent intrusion detection system using artificial intelligence techniques to identify and classify complex network attacks (DDoS, Probe, etc.) via the NSL-KDD dataset.",
         research_view_abstract: "Abstract",
         blog_read_more: "Read more",
         hobbies_title: "My Passions & Hobbies",
@@ -204,7 +204,10 @@ const navMenu = document.getElementById('nav-menu'),
     navClose = document.getElementById('nav-close'),
     navLinks = document.querySelectorAll('.nav__link'),
     themeButton = document.getElementById('theme-button'),
-    langBtns = document.querySelectorAll('.lang-btn'),
+    langDropdownBtn = document.getElementById('lang-dropdown-btn'),
+    langDropdownMenu = document.getElementById('lang-dropdown-menu'),
+    currentLangFlag = document.getElementById('current-lang-flag'),
+    langBtns = document.querySelectorAll('.lang-dropdown__item'),
     header = document.getElementById('header'),
     contactForm = document.getElementById('contact-form'),
     formResponse = document.getElementById('form-response'),
@@ -236,22 +239,50 @@ applyTheme(currentTheme);
 themeButton.addEventListener('click', toggleTheme);
 
 /* --- LANGUAGE TOGGLE --- */
+// Toggle dropdown visibility
+if(langDropdownBtn) {
+    langDropdownBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        langDropdownMenu.classList.toggle('show');
+    });
+}
+
+// Close dropdown when clicking outside
+document.addEventListener('click', (e) => {
+    if(langDropdownMenu && langDropdownMenu.classList.contains('show') && !e.target.closest('#lang-dropdown')) {
+        langDropdownMenu.classList.remove('show');
+    }
+});
+
 const updateLanguage = (lang) => {
     currentLang = lang;
     localStorage.setItem('selected-lang', lang);
+    
+    // Update active class on dropdown items
     langBtns.forEach(btn => btn.classList.toggle('active', btn.getAttribute('data-lang') === lang));
+    
+    // Update main button flag
+    if(currentLangFlag) {
+        currentLangFlag.src = lang === 'fr' ? 'https://flagcdn.com/w20/fr.png' : 'https://flagcdn.com/w20/gb.png';
+        currentLangFlag.alt = lang.toUpperCase();
+    }
+
+    // Close dropdown
+    if(langDropdownMenu) langDropdownMenu.classList.remove('show');
+
     document.documentElement.setAttribute('lang', lang);
-    heroSubtitle.textContent = lang === 'fr' ? CONFIG.title_fr : CONFIG.title_en;
+    if(heroSubtitle) heroSubtitle.textContent = lang === 'fr' ? CONFIG.title_fr : CONFIG.title_en;
 
     document.querySelectorAll('[data-i18n]').forEach(el => {
         const key = el.getAttribute('data-i18n');
-        if (translations[lang][key]) {
+        if (translations[lang] && translations[lang][key]) {
             if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') el.placeholder = translations[lang][key];
             else el.innerHTML = translations[lang][key];
         }
     });
 
-    document.getElementById('footer-copy').innerHTML = `&#169; ${new Date().getFullYear()} ${CONFIG.name}. ${lang === 'fr' ? 'Tous droits réservés.' : 'All rights reserved.'}`;
+    const footerCopy = document.getElementById('footer-copy');
+    if(footerCopy) footerCopy.innerHTML = `&#169; ${new Date().getFullYear()} ${CONFIG.name}. ${lang === 'fr' ? 'Tous droits réservés.' : 'All rights reserved.'}`;
 };
 
 langBtns.forEach(btn => btn.addEventListener('click', () => updateLanguage(btn.getAttribute('data-lang'))));
@@ -276,10 +307,13 @@ window.addEventListener('scroll', () => {
             sectionTop = current.offsetTop - 58,
             sectionId = current.getAttribute('id');
 
-        if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.add('active-link');
-        } else {
-            document.querySelector('.nav__menu a[href*=' + sectionId + ']').classList.remove('active-link');
+        const navLink = document.querySelector('.nav__menu a[href*=' + sectionId + ']');
+        if (navLink) {
+            if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+                navLink.classList.add('active-link');
+            } else {
+                navLink.classList.remove('active-link');
+            }
         }
     });
 });
